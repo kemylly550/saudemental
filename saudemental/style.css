@@ -1,0 +1,148 @@
+/* Reset de estilo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo base para o body */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Container comum */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #2d3e50;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Mapa mental */
+.mapa-mental {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px 20px;
+    margin: 40px 0;
+}
+
+.mapa h2 {
+    font-size: 2rem;
+    color: #2d3e50;
+    margin-bottom: 20px;
+}
+
+.mapa ul {
+    list-style-type: none;
+    font-size: 1.1rem;
+}
+
+.mapa li {
+    margin-bottom: 15px;
+}
+
+/* Seção das doenças mentais */
+.doencas-mentais {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 40px 0;
+}
+
+.doencas-mentais h2 {
+    font-size: 2rem;
+    color: #2d3e50;
+    margin-bottom: 20px;
+}
+
+.doencas {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.doenca {
+    background-color: #e9f1f5;
+    padding: 20px;
+    flex: 1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.doenca h3 {
+    font-size: 1.5rem;
+    color: #2d3e50;
+    margin-bottom: 10px;
+}
+
+.doenca p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Estatísticas */
+.estatisticas {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 40px 0;
+}
+
+.estatisticas h2 {
+    font-size: 2rem;
+    color: #2d3e50;
+    margin-bottom: 20px;
+}
+
+.estatisticas-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.estatistica {
+    flex: 1;
+    background-color: #e9f1f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.estatistica h3 {
+    font-size: 1.5rem;
+    color: #2d3e50;
+    margin-bottom: 10px;
+}
+
+.estatistica p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Estratégias para Saúde Mental */
+.estrategias {
+    background-color: #ffffff;
+    padding: 40px 
